@@ -22,8 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [SubLoadInitialize new];
-    [SubLoadInitialize2 new];
-    
+    [SubLoadInitialize2 new];    
 }
+
 
 @end

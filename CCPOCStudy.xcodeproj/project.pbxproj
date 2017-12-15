@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0086F9A91FE266A800843BA9 /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0086F9A81FE266A800843BA9 /* GCD.m */; };
+		00BF93C71FE0C0610061993B /* LoadInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF93C11FE0C0600061993B /* LoadInitialize.m */; };
+		00BF93C81FE0C0610061993B /* LoadInitialize+CategoryLoadInitialize2.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF93C21FE0C0600061993B /* LoadInitialize+CategoryLoadInitialize2.m */; };
+		00BF93C91FE0C0610061993B /* LoadInitialize+CategoryLoadInitialze.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF93C31FE0C0600061993B /* LoadInitialize+CategoryLoadInitialze.m */; };
+		00BF93CA1FE0C0610061993B /* SubLoadInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF93C41FE0C0600061993B /* SubLoadInitialize.m */; };
+		00BF93CB1FE0C0610061993B /* SubLoadInitialize2.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF93C61FE0C0610061993B /* SubLoadInitialize2.m */; };
+		00BF93CE1FE0C08D0061993B /* Multithreading.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF93CD1FE0C08D0061993B /* Multithreading.m */; };
 		8B312E921FBE6BD80022FB1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B312E911FBE6BD80022FB1D /* AppDelegate.m */; };
 		8B312E951FBE6BD80022FB1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B312E941FBE6BD80022FB1D /* ViewController.m */; };
 		8B312E981FBE6BD90022FB1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B312E961FBE6BD90022FB1D /* Main.storyboard */; };
@@ -15,12 +22,25 @@
 		8B312EA01FBE6BD90022FB1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B312E9F1FBE6BD90022FB1D /* main.m */; };
 		8B312EA91FBE6C4C0022FB1D /* NilNullnilNSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B312EA81FBE6C4C0022FB1D /* NilNullnilNSNull.m */; };
 		8B312EAC1FBE725C0022FB1D /* AlphaHiddenOpaque.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B312EAB1FBE725C0022FB1D /* AlphaHiddenOpaque.m */; };
-		8B5A32981FCFFDE700BFB92D /* LoadInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A32971FCFFDE700BFB92D /* LoadInitialize.m */; };
 		8B91FDFF1FCE8F750001A23B /* KVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B91FDFE1FCE8F750001A23B /* KVC.m */; };
 		8BA39E621FD13A5D00700803 /* KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA39E611FD13A5D00700803 /* KVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0086F9A71FE266A800843BA9 /* GCD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
+		0086F9A81FE266A800843BA9 /* GCD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD.m; sourceTree = "<group>"; };
+		00BF93BD1FE0C0600061993B /* SubLoadInitialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubLoadInitialize.h; sourceTree = "<group>"; };
+		00BF93BE1FE0C0600061993B /* LoadInitialize+CategoryLoadInitialze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LoadInitialize+CategoryLoadInitialze.h"; sourceTree = "<group>"; };
+		00BF93BF1FE0C0600061993B /* SubLoadInitialize2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubLoadInitialize2.h; sourceTree = "<group>"; };
+		00BF93C01FE0C0600061993B /* LoadInitialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadInitialize.h; sourceTree = "<group>"; };
+		00BF93C11FE0C0600061993B /* LoadInitialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadInitialize.m; sourceTree = "<group>"; };
+		00BF93C21FE0C0600061993B /* LoadInitialize+CategoryLoadInitialize2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LoadInitialize+CategoryLoadInitialize2.m"; sourceTree = "<group>"; };
+		00BF93C31FE0C0600061993B /* LoadInitialize+CategoryLoadInitialze.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LoadInitialize+CategoryLoadInitialze.m"; sourceTree = "<group>"; };
+		00BF93C41FE0C0600061993B /* SubLoadInitialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubLoadInitialize.m; sourceTree = "<group>"; };
+		00BF93C51FE0C0600061993B /* LoadInitialize+CategoryLoadInitialize2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LoadInitialize+CategoryLoadInitialize2.h"; sourceTree = "<group>"; };
+		00BF93C61FE0C0610061993B /* SubLoadInitialize2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubLoadInitialize2.m; sourceTree = "<group>"; };
+		00BF93CC1FE0C08D0061993B /* Multithreading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Multithreading.h; sourceTree = "<group>"; };
+		00BF93CD1FE0C08D0061993B /* Multithreading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multithreading.m; sourceTree = "<group>"; };
 		8B312E8D1FBE6BD80022FB1D /* CCPOCStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPOCStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B312E901FBE6BD80022FB1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B312E911FBE6BD80022FB1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,18 +55,8 @@
 		8B312EA81FBE6C4C0022FB1D /* NilNullnilNSNull.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NilNullnilNSNull.m; sourceTree = "<group>"; };
 		8B312EAA1FBE725C0022FB1D /* AlphaHiddenOpaque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlphaHiddenOpaque.h; sourceTree = "<group>"; };
 		8B312EAB1FBE725C0022FB1D /* AlphaHiddenOpaque.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaHiddenOpaque.m; sourceTree = "<group>"; };
-		8B5A32961FCFFDE700BFB92D /* LoadInitialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadInitialize.h; sourceTree = "<group>"; };
-		8B5A32971FCFFDE700BFB92D /* LoadInitialize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadInitialize.m; sourceTree = "<group>"; };
 		8B91FDFD1FCE8F750001A23B /* KVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVC.h; sourceTree = "<group>"; };
 		8B91FDFE1FCE8F750001A23B /* KVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVC.m; sourceTree = "<group>"; };
-		8BA39E581FD0ECD600700803 /* LoadInitialize+CategoryLoadInitialize2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoadInitialize+CategoryLoadInitialize2.h"; sourceTree = "<group>"; };
-		8BA39E591FD0ECD600700803 /* LoadInitialize+CategoryLoadInitialize2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LoadInitialize+CategoryLoadInitialize2.m"; sourceTree = "<group>"; };
-		8BA39E5A1FD0ECD600700803 /* LoadInitialize+CategoryLoadInitialze.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoadInitialize+CategoryLoadInitialze.h"; sourceTree = "<group>"; };
-		8BA39E5B1FD0ECD600700803 /* LoadInitialize+CategoryLoadInitialze.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LoadInitialize+CategoryLoadInitialze.m"; sourceTree = "<group>"; };
-		8BA39E5C1FD0ECD600700803 /* SubLoadInitialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubLoadInitialize.h; sourceTree = "<group>"; };
-		8BA39E5D1FD0ECD600700803 /* SubLoadInitialize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubLoadInitialize.m; sourceTree = "<group>"; };
-		8BA39E5E1FD0ECD600700803 /* SubLoadInitialize2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubLoadInitialize2.h; sourceTree = "<group>"; };
-		8BA39E5F1FD0ECD600700803 /* SubLoadInitialize2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubLoadInitialize2.m; sourceTree = "<group>"; };
 		8BA39E601FD13A5D00700803 /* KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVO.h; sourceTree = "<group>"; };
 		8BA39E611FD13A5D00700803 /* KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +72,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00BF93AA1FE0BFBC0061993B /* Multithreading */ = {
+			isa = PBXGroup;
+			children = (
+				00BF93CC1FE0C08D0061993B /* Multithreading.h */,
+				00BF93CD1FE0C08D0061993B /* Multithreading.m */,
+				0086F9A71FE266A800843BA9 /* GCD.h */,
+				0086F9A81FE266A800843BA9 /* GCD.m */,
+			);
+			path = Multithreading;
+			sourceTree = "<group>";
+		};
+		00BF93BC1FE0C0510061993B /* LoadInitializeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				00BF93C01FE0C0600061993B /* LoadInitialize.h */,
+				00BF93C11FE0C0600061993B /* LoadInitialize.m */,
+				00BF93C51FE0C0600061993B /* LoadInitialize+CategoryLoadInitialize2.h */,
+				00BF93C21FE0C0600061993B /* LoadInitialize+CategoryLoadInitialize2.m */,
+				00BF93BE1FE0C0600061993B /* LoadInitialize+CategoryLoadInitialze.h */,
+				00BF93C31FE0C0600061993B /* LoadInitialize+CategoryLoadInitialze.m */,
+				00BF93BD1FE0C0600061993B /* SubLoadInitialize.h */,
+				00BF93C41FE0C0600061993B /* SubLoadInitialize.m */,
+				00BF93BF1FE0C0600061993B /* SubLoadInitialize2.h */,
+				00BF93C61FE0C0610061993B /* SubLoadInitialize2.m */,
+			);
+			path = LoadInitializeDemo;
+			sourceTree = "<group>";
+		};
 		8B312E841FBE6BD80022FB1D = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +137,8 @@
 		8B312EA61FBE6C200022FB1D /* System */ = {
 			isa = PBXGroup;
 			children = (
+				00BF93BC1FE0C0510061993B /* LoadInitializeDemo */,
+				00BF93AA1FE0BFBC0061993B /* Multithreading */,
 				8B312EA71FBE6C4C0022FB1D /* NilNullnilNSNull.h */,
 				8B312EA81FBE6C4C0022FB1D /* NilNullnilNSNull.m */,
 				8B312EAA1FBE725C0022FB1D /* AlphaHiddenOpaque.h */,
@@ -107,9 +147,6 @@
 				8B91FDFE1FCE8F750001A23B /* KVC.m */,
 				8BA39E601FD13A5D00700803 /* KVO.h */,
 				8BA39E611FD13A5D00700803 /* KVO.m */,
-				8B5A32961FCFFDE700BFB92D /* LoadInitialize.h */,
-				8B5A32971FCFFDE700BFB92D /* LoadInitialize.m */,
-				8BA39E571FD0ECD600700803 /* LoadInitializeDemo */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -119,21 +156,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8BA39E571FD0ECD600700803 /* LoadInitializeDemo */ = {
-			isa = PBXGroup;
-			children = (
-				8BA39E581FD0ECD600700803 /* LoadInitialize+CategoryLoadInitialize2.h */,
-				8BA39E591FD0ECD600700803 /* LoadInitialize+CategoryLoadInitialize2.m */,
-				8BA39E5A1FD0ECD600700803 /* LoadInitialize+CategoryLoadInitialze.h */,
-				8BA39E5B1FD0ECD600700803 /* LoadInitialize+CategoryLoadInitialze.m */,
-				8BA39E5C1FD0ECD600700803 /* SubLoadInitialize.h */,
-				8BA39E5D1FD0ECD600700803 /* SubLoadInitialize.m */,
-				8BA39E5E1FD0ECD600700803 /* SubLoadInitialize2.h */,
-				8BA39E5F1FD0ECD600700803 /* SubLoadInitialize2.m */,
-			);
-			path = LoadInitializeDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,12 +232,18 @@
 			files = (
 				8BA39E621FD13A5D00700803 /* KVO.m in Sources */,
 				8B91FDFF1FCE8F750001A23B /* KVC.m in Sources */,
-				8B5A32981FCFFDE700BFB92D /* LoadInitialize.m in Sources */,
+				0086F9A91FE266A800843BA9 /* GCD.m in Sources */,
 				8B312E951FBE6BD80022FB1D /* ViewController.m in Sources */,
 				8B312EA01FBE6BD90022FB1D /* main.m in Sources */,
 				8B312EA91FBE6C4C0022FB1D /* NilNullnilNSNull.m in Sources */,
+				00BF93C81FE0C0610061993B /* LoadInitialize+CategoryLoadInitialize2.m in Sources */,
+				00BF93C71FE0C0610061993B /* LoadInitialize.m in Sources */,
+				00BF93CE1FE0C08D0061993B /* Multithreading.m in Sources */,
 				8B312E921FBE6BD80022FB1D /* AppDelegate.m in Sources */,
+				00BF93CA1FE0C0610061993B /* SubLoadInitialize.m in Sources */,
+				00BF93CB1FE0C0610061993B /* SubLoadInitialize2.m in Sources */,
 				8B312EAC1FBE725C0022FB1D /* AlphaHiddenOpaque.m in Sources */,
+				00BF93C91FE0C0610061993B /* LoadInitialize+CategoryLoadInitialze.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
