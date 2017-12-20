@@ -9,11 +9,10 @@
 #import "ViewController.h"
 #import "SubLoadInitialize.h"
 #import "SubLoadInitialize2.h"
+#import "CopyStrong.h"
 
 @interface ViewController ()
 
-//
-@property (nonatomic, strong) NSMutableArray *arr;
 
 @end
 
@@ -22,7 +21,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [SubLoadInitialize new];
-    [SubLoadInitialize2 new];    
+    [SubLoadInitialize2 new];
+    CopyStrong *cs = [CopyStrong new];
+   // abort();
+    [cs testCopyStrong];
+    
 }
 
 
