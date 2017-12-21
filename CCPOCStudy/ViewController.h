@@ -9,8 +9,19 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    NSString *ivalName;
+    NSString *ivalDic;
+}
 
 //
 @property (nonatomic, strong) NSString *name;
+
+//
+@property (nonatomic, copy) NSDictionary *dic;
+
+//
+@property (nonatomic, copy) NSArray *array;
+
 @end
 

@@ -12,6 +12,9 @@
 		00A675B81FE9EE7E00FB85F2 /* Company+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A675B21FE9EE7E00FB85F2 /* Company+CoreDataProperties.m */; };
 		00A675B91FE9EE7E00FB85F2 /* Employee+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A675B51FE9EE7E00FB85F2 /* Employee+CoreDataClass.m */; };
 		00A675BA1FE9EE7E00FB85F2 /* Employee+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A675B61FE9EE7E00FB85F2 /* Employee+CoreDataProperties.m */; };
+		00A675BE1FEA458400FB85F2 /* Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A675BD1FEA458400FB85F2 /* Runtime.m */; };
+		00AFFAB51FEB3976008E9823 /* ExchangeIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AFFAB41FEB3976008E9823 /* ExchangeIMP.m */; };
+		00AFFAB81FEB3EBF008E9823 /* NSObject+CCPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AFFAB71FEB3EBF008E9823 /* NSObject+CCPObject.m */; };
 		00B702821FE369BC0099F42E /* CopyStrong.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B702811FE369BC0099F42E /* CopyStrong.m */; };
 		00B702861FE374DB0099F42E /* CoredataStudy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00B702841FE374DB0099F42E /* CoredataStudy.xcdatamodeld */; };
 		00B7029B1FE39FE80099F42E /* CCPCoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B7029A1FE39FE80099F42E /* CCPCoredataManager.m */; };
@@ -44,6 +47,12 @@
 		00A675B41FE9EE7E00FB85F2 /* Employee+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Employee+CoreDataClass.h"; sourceTree = "<group>"; };
 		00A675B51FE9EE7E00FB85F2 /* Employee+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Employee+CoreDataClass.m"; sourceTree = "<group>"; };
 		00A675B61FE9EE7E00FB85F2 /* Employee+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Employee+CoreDataProperties.m"; sourceTree = "<group>"; };
+		00A675BC1FEA458400FB85F2 /* Runtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runtime.h; sourceTree = "<group>"; };
+		00A675BD1FEA458400FB85F2 /* Runtime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runtime.m; sourceTree = "<group>"; };
+		00AFFAB31FEB3976008E9823 /* ExchangeIMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExchangeIMP.h; sourceTree = "<group>"; };
+		00AFFAB41FEB3976008E9823 /* ExchangeIMP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExchangeIMP.m; sourceTree = "<group>"; };
+		00AFFAB61FEB3EBF008E9823 /* NSObject+CCPObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCPObject.h"; sourceTree = "<group>"; };
+		00AFFAB71FEB3EBF008E9823 /* NSObject+CCPObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCPObject.m"; sourceTree = "<group>"; };
 		00B702801FE369BC0099F42E /* CopyStrong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CopyStrong.h; sourceTree = "<group>"; };
 		00B702811FE369BC0099F42E /* CopyStrong.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyStrong.m; sourceTree = "<group>"; };
 		00B702851FE374DB0099F42E /* CoredataStudy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoredataStudy.xcdatamodel; sourceTree = "<group>"; };
@@ -92,6 +101,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00A675BB1FEA44FE00FB85F2 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				00A675BC1FEA458400FB85F2 /* Runtime.h */,
+				00A675BD1FEA458400FB85F2 /* Runtime.m */,
+				00AFFAB31FEB3976008E9823 /* ExchangeIMP.h */,
+				00AFFAB41FEB3976008E9823 /* ExchangeIMP.m */,
+				00AFFAB61FEB3EBF008E9823 /* NSObject+CCPObject.h */,
+				00AFFAB71FEB3EBF008E9823 /* NSObject+CCPObject.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
 		00B702831FE374BC0099F42E /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +197,7 @@
 		8B312EA61FBE6C200022FB1D /* System */ = {
 			isa = PBXGroup;
 			children = (
+				00A675BB1FEA44FE00FB85F2 /* Runtime */,
 				00B702831FE374BC0099F42E /* CoreData */,
 				00BF93BC1FE0C0510061993B /* LoadInitializeDemo */,
 				00BF93AA1FE0BFBC0061993B /* Multithreading */,
@@ -277,6 +300,7 @@
 				8B91FDFF1FCE8F750001A23B /* KVC.m in Sources */,
 				00A675B81FE9EE7E00FB85F2 /* Company+CoreDataProperties.m in Sources */,
 				0086F9A91FE266A800843BA9 /* GCD.m in Sources */,
+				00A675BE1FEA458400FB85F2 /* Runtime.m in Sources */,
 				8B312E951FBE6BD80022FB1D /* ViewController.m in Sources */,
 				8B312EA01FBE6BD90022FB1D /* main.m in Sources */,
 				8B312EA91FBE6C4C0022FB1D /* NilNullnilNSNull.m in Sources */,
@@ -288,10 +312,12 @@
 				00BF93CA1FE0C0610061993B /* SubLoadInitialize.m in Sources */,
 				00A675B71FE9EE7E00FB85F2 /* Company+CoreDataClass.m in Sources */,
 				00BF93CB1FE0C0610061993B /* SubLoadInitialize2.m in Sources */,
+				00AFFAB51FEB3976008E9823 /* ExchangeIMP.m in Sources */,
 				8B312EAC1FBE725C0022FB1D /* AlphaHiddenOpaque.m in Sources */,
 				00B702861FE374DB0099F42E /* CoredataStudy.xcdatamodeld in Sources */,
 				00BF93C91FE0C0610061993B /* LoadInitialize+CategoryLoadInitialze.m in Sources */,
 				00A675B91FE9EE7E00FB85F2 /* Employee+CoreDataClass.m in Sources */,
+				00AFFAB81FEB3EBF008E9823 /* NSObject+CCPObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
