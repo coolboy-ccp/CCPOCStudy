@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0018E54820030A7400F2ED23 /* Encryption_MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0018E54720030A7400F2ED23 /* Encryption_MD5.m */; };
+		0018E55020033DEC00F2ED23 /* CCPOCStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0018E54F20033DEC00F2ED23 /* CCPOCStudyTests.m */; };
+		0018E5592003673700F2ED23 /* Encryption_SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0018E5582003673700F2ED23 /* Encryption_SHA1.m */; };
 		0086F9A91FE266A800843BA9 /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0086F9A81FE266A800843BA9 /* GCD.m */; };
 		00A675B71FE9EE7E00FB85F2 /* Company+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A675B11FE9EE7E00FB85F2 /* Company+CoreDataClass.m */; };
 		00A675B81FE9EE7E00FB85F2 /* Company+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A675B21FE9EE7E00FB85F2 /* Company+CoreDataProperties.m */; };
@@ -24,6 +27,8 @@
 		00BF93CA1FE0C0610061993B /* SubLoadInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF93C41FE0C0600061993B /* SubLoadInitialize.m */; };
 		00BF93CB1FE0C0610061993B /* SubLoadInitialize2.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF93C61FE0C0610061993B /* SubLoadInitialize2.m */; };
 		00BF93CE1FE0C08D0061993B /* Multithreading.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BF93CD1FE0C08D0061993B /* Multithreading.m */; };
+		00E8802F20044DE400313BA7 /* Encryption_RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E8802E20044DE400313BA7 /* Encryption_RSA.m */; };
+		00E880342004B64A00313BA7 /* Encryption_DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E880332004B64A00313BA7 /* Encryption_DES.m */; };
 		8B312E921FBE6BD80022FB1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B312E911FBE6BD80022FB1D /* AppDelegate.m */; };
 		8B312E951FBE6BD80022FB1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B312E941FBE6BD80022FB1D /* ViewController.m */; };
 		8B312E981FBE6BD90022FB1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B312E961FBE6BD90022FB1D /* Main.storyboard */; };
@@ -36,7 +41,24 @@
 		8BA39E621FD13A5D00700803 /* KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA39E611FD13A5D00700803 /* KVO.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0018E55220033DEC00F2ED23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B312E851FBE6BD80022FB1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B312E8C1FBE6BD80022FB1D;
+			remoteInfo = CCPOCStudy;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0018E54620030A7400F2ED23 /* Encryption_MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encryption_MD5.h; sourceTree = "<group>"; };
+		0018E54720030A7400F2ED23 /* Encryption_MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encryption_MD5.m; sourceTree = "<group>"; };
+		0018E54D20033DEC00F2ED23 /* CCPOCStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCPOCStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0018E54F20033DEC00F2ED23 /* CCPOCStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCPOCStudyTests.m; sourceTree = "<group>"; };
+		0018E55120033DEC00F2ED23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0018E5572003673700F2ED23 /* Encryption_SHA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encryption_SHA1.h; sourceTree = "<group>"; };
+		0018E5582003673700F2ED23 /* Encryption_SHA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encryption_SHA1.m; sourceTree = "<group>"; };
 		0086F9A71FE266A800843BA9 /* GCD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
 		0086F9A81FE266A800843BA9 /* GCD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD.m; sourceTree = "<group>"; };
 		00A675AF1FE9EE7E00FB85F2 /* Company+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Company+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -70,6 +92,12 @@
 		00BF93C61FE0C0610061993B /* SubLoadInitialize2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubLoadInitialize2.m; sourceTree = "<group>"; };
 		00BF93CC1FE0C08D0061993B /* Multithreading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Multithreading.h; sourceTree = "<group>"; };
 		00BF93CD1FE0C08D0061993B /* Multithreading.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multithreading.m; sourceTree = "<group>"; };
+		00E8802D20044DE400313BA7 /* Encryption_RSA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encryption_RSA.h; sourceTree = "<group>"; };
+		00E8802E20044DE400313BA7 /* Encryption_RSA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encryption_RSA.m; sourceTree = "<group>"; };
+		00E880302004525000313BA7 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		00E880312004525600313BA7 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		00E880322004B64A00313BA7 /* Encryption_DES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encryption_DES.h; sourceTree = "<group>"; };
+		00E880332004B64A00313BA7 /* Encryption_DES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encryption_DES.m; sourceTree = "<group>"; };
 		8B312E8D1FBE6BD80022FB1D /* CCPOCStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPOCStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B312E901FBE6BD80022FB1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B312E911FBE6BD80022FB1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,6 +119,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0018E54A20033DEC00F2ED23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B312E8A1FBE6BD80022FB1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,6 +136,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0018E5452003047E00F2ED23 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				0018E54620030A7400F2ED23 /* Encryption_MD5.h */,
+				0018E54720030A7400F2ED23 /* Encryption_MD5.m */,
+				0018E5572003673700F2ED23 /* Encryption_SHA1.h */,
+				0018E5582003673700F2ED23 /* Encryption_SHA1.m */,
+				00E8802D20044DE400313BA7 /* Encryption_RSA.h */,
+				00E8802E20044DE400313BA7 /* Encryption_RSA.m */,
+				00E880322004B64A00313BA7 /* Encryption_DES.h */,
+				00E880332004B64A00313BA7 /* Encryption_DES.m */,
+				00E880302004525000313BA7 /* public_key.der */,
+				00E880312004525600313BA7 /* private_key.p12 */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		0018E54E20033DEC00F2ED23 /* CCPOCStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0018E54F20033DEC00F2ED23 /* CCPOCStudyTests.m */,
+				0018E55120033DEC00F2ED23 /* Info.plist */,
+			);
+			path = CCPOCStudyTests;
+			sourceTree = "<group>";
+		};
 		00A675BB1FEA44FE00FB85F2 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				8B312E8F1FBE6BD80022FB1D /* CCPOCStudy */,
+				0018E54E20033DEC00F2ED23 /* CCPOCStudyTests */,
 				8B312E8E1FBE6BD80022FB1D /* Products */,
 				8B91FE861FCE98F40001A23B /* Frameworks */,
 			);
@@ -173,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				8B312E8D1FBE6BD80022FB1D /* CCPOCStudy.app */,
+				0018E54D20033DEC00F2ED23 /* CCPOCStudyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +260,7 @@
 		8B312EA61FBE6C200022FB1D /* System */ = {
 			isa = PBXGroup;
 			children = (
+				0018E5452003047E00F2ED23 /* Encryption */,
 				00A675BB1FEA44FE00FB85F2 /* Runtime */,
 				00B702831FE374BC0099F42E /* CoreData */,
 				00BF93BC1FE0C0510061993B /* LoadInitializeDemo */,
@@ -225,6 +289,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0018E54C20033DEC00F2ED23 /* CCPOCStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0018E55420033DEC00F2ED23 /* Build configuration list for PBXNativeTarget "CCPOCStudyTests" */;
+			buildPhases = (
+				0018E54920033DEC00F2ED23 /* Sources */,
+				0018E54A20033DEC00F2ED23 /* Frameworks */,
+				0018E54B20033DEC00F2ED23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0018E55320033DEC00F2ED23 /* PBXTargetDependency */,
+			);
+			name = CCPOCStudyTests;
+			productName = CCPOCStudyTests;
+			productReference = 0018E54D20033DEC00F2ED23 /* CCPOCStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8B312E8C1FBE6BD80022FB1D /* CCPOCStudy */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B312EA31FBE6BD90022FB1D /* Build configuration list for PBXNativeTarget "CCPOCStudy" */;
@@ -251,6 +333,11 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Ceair;
 				TargetAttributes = {
+					0018E54C20033DEC00F2ED23 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B312E8C1FBE6BD80022FB1D;
+					};
 					8B312E8C1FBE6BD80022FB1D = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -272,11 +359,19 @@
 			projectRoot = "";
 			targets = (
 				8B312E8C1FBE6BD80022FB1D /* CCPOCStudy */,
+				0018E54C20033DEC00F2ED23 /* CCPOCStudyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0018E54B20033DEC00F2ED23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B312E8B1FBE6BD80022FB1D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,11 +385,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0018E54920033DEC00F2ED23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0018E55020033DEC00F2ED23 /* CCPOCStudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B312E891FBE6BD80022FB1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				00A675BA1FE9EE7E00FB85F2 /* Employee+CoreDataProperties.m in Sources */,
+				0018E5592003673700F2ED23 /* Encryption_SHA1.m in Sources */,
 				00B702821FE369BC0099F42E /* CopyStrong.m in Sources */,
 				8BA39E621FD13A5D00700803 /* KVO.m in Sources */,
 				8B91FDFF1FCE8F750001A23B /* KVC.m in Sources */,
@@ -302,8 +406,11 @@
 				0086F9A91FE266A800843BA9 /* GCD.m in Sources */,
 				00A675BE1FEA458400FB85F2 /* Runtime.m in Sources */,
 				8B312E951FBE6BD80022FB1D /* ViewController.m in Sources */,
+				0018E54820030A7400F2ED23 /* Encryption_MD5.m in Sources */,
 				8B312EA01FBE6BD90022FB1D /* main.m in Sources */,
 				8B312EA91FBE6C4C0022FB1D /* NilNullnilNSNull.m in Sources */,
+				00E8802F20044DE400313BA7 /* Encryption_RSA.m in Sources */,
+				00E880342004B64A00313BA7 /* Encryption_DES.m in Sources */,
 				00BF93C81FE0C0610061993B /* LoadInitialize+CategoryLoadInitialize2.m in Sources */,
 				00BF93C71FE0C0610061993B /* LoadInitialize.m in Sources */,
 				00B7029B1FE39FE80099F42E /* CCPCoredataManager.m in Sources */,
@@ -322,6 +429,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0018E55320033DEC00F2ED23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B312E8C1FBE6BD80022FB1D /* CCPOCStudy */;
+			targetProxy = 0018E55220033DEC00F2ED23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8B312E961FBE6BD90022FB1D /* Main.storyboard */ = {
@@ -343,6 +458,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0018E55520033DEC00F2ED23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCPOCStudyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chuchengpeng.CCPOCStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCPOCStudy.app/CCPOCStudy";
+			};
+			name = Debug;
+		};
+		0018E55620033DEC00F2ED23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCPOCStudyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chuchengpeng.CCPOCStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCPOCStudy.app/CCPOCStudy";
+			};
+			name = Release;
+		};
 		8B312EA11FBE6BD90022FB1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -486,6 +631,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0018E55420033DEC00F2ED23 /* Build configuration list for PBXNativeTarget "CCPOCStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0018E55520033DEC00F2ED23 /* Debug */,
+				0018E55620033DEC00F2ED23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8B312E881FBE6BD80022FB1D /* Build configuration list for PBXProject "CCPOCStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
