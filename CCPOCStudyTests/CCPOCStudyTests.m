@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "Encryption_MD5.h"
+#import "BaseAlgorithm.h"
 
 
 @interface CCPOCStudyTests : XCTestCase
@@ -44,6 +45,10 @@
 
 - (void)testEncryption_md5_uppercase {
     [Encryption_MD5 uppercaseMD5:@"123"];
+}
+
+- (void)testCommonDivisor {
+    commonDivisor(12, 16);
 }
 
 @end

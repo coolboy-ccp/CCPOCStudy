@@ -11,6 +11,7 @@
 		0018E55020033DEC00F2ED23 /* CCPOCStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0018E54F20033DEC00F2ED23 /* CCPOCStudyTests.m */; };
 		0018E5592003673700F2ED23 /* Encryption_SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0018E5582003673700F2ED23 /* Encryption_SHA1.m */; };
 		00305B142005A0D400378846 /* Encryption_AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 00305B132005A0D400378846 /* Encryption_AES.m */; };
+		00305B182005D88500378846 /* BaseAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 00305B172005D88500378846 /* BaseAlgorithm.m */; };
 		0086F9A91FE266A800843BA9 /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0086F9A81FE266A800843BA9 /* GCD.m */; };
 		00A675B71FE9EE7E00FB85F2 /* Company+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A675B11FE9EE7E00FB85F2 /* Company+CoreDataClass.m */; };
 		00A675B81FE9EE7E00FB85F2 /* Company+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A675B21FE9EE7E00FB85F2 /* Company+CoreDataProperties.m */; };
@@ -62,6 +63,8 @@
 		0018E5582003673700F2ED23 /* Encryption_SHA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encryption_SHA1.m; sourceTree = "<group>"; };
 		00305B122005A0D400378846 /* Encryption_AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encryption_AES.h; sourceTree = "<group>"; };
 		00305B132005A0D400378846 /* Encryption_AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encryption_AES.m; sourceTree = "<group>"; };
+		00305B162005D88500378846 /* BaseAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAlgorithm.h; sourceTree = "<group>"; };
+		00305B172005D88500378846 /* BaseAlgorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAlgorithm.m; sourceTree = "<group>"; };
 		0086F9A71FE266A800843BA9 /* GCD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
 		0086F9A81FE266A800843BA9 /* GCD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD.m; sourceTree = "<group>"; };
 		00A675AF1FE9EE7E00FB85F2 /* Company+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Company+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -167,6 +170,15 @@
 			path = CCPOCStudyTests;
 			sourceTree = "<group>";
 		};
+		00305B152005D86900378846 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				00305B162005D88500378846 /* BaseAlgorithm.h */,
+				00305B172005D88500378846 /* BaseAlgorithm.m */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
 		00A675BB1FEA44FE00FB85F2 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +277,7 @@
 		8B312EA61FBE6C200022FB1D /* System */ = {
 			isa = PBXGroup;
 			children = (
+				00305B152005D86900378846 /* Algorithms */,
 				0018E5452003047E00F2ED23 /* Encryption */,
 				00A675BB1FEA44FE00FB85F2 /* Runtime */,
 				00B702831FE374BC0099F42E /* CoreData */,
@@ -420,6 +433,7 @@
 				00BF93C71FE0C0610061993B /* LoadInitialize.m in Sources */,
 				00B7029B1FE39FE80099F42E /* CCPCoredataManager.m in Sources */,
 				00BF93CE1FE0C08D0061993B /* Multithreading.m in Sources */,
+				00305B182005D88500378846 /* BaseAlgorithm.m in Sources */,
 				8B312E921FBE6BD80022FB1D /* AppDelegate.m in Sources */,
 				00BF93CA1FE0C0610061993B /* SubLoadInitialize.m in Sources */,
 				00305B142005A0D400378846 /* Encryption_AES.m in Sources */,
